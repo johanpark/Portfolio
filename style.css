@@ -47,12 +47,11 @@ body {
  * Header
  */
 .masthead {
-  max-width: 80em;
   margin-bottom: 2rem;
 }
 
 .masthead-brand {
-  max-width: 80em;
+  
   margin-bottom: 0;
 }
 
@@ -88,11 +87,27 @@ body {
 }
 
 
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+
 /*
  * Cover
  */
 .cover {
-  padding: 0 1.5rem;
+
+  padding: 360px 1.5rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -105,4 +120,9 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
 }
