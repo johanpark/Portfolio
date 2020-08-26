@@ -40,15 +40,20 @@ body {
 }
 
 .cover-container {
-  max-width: 90em;
+  
 }
 
 
 /*
  * Header
  */
+
 .masthead {
   margin-bottom: 2rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .masthead-brand {
@@ -125,7 +130,7 @@ body {
 
 .hr-light {
   border-top: 3px solid #fff;
-  width: 80px;
+  width: 350px;
 }
 .hr{
   border-top: 3px solid #000000;
@@ -137,7 +142,7 @@ body {
 }
 
 
-
+/* Animation*/
 
 .alrazy-title {
   font-family: 'Open Sans', Helvetica, sans-serif;
