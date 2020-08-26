@@ -49,17 +49,15 @@
     </header>
 
   <main role="main" class="inner cover" style="background-image: url('image_src/main_img.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-    <h1 class="cover-heading">Hello I'm Johan Park</h1>
-    <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-    <p class="lead">Someday, I will be a full-stack</p>
+    <div class="alrazy-title" data-splitting>Hi, I'm Johan Park</div>
+    <p class="lead"><strong>Someday, I will be a full-stack</strong></p>
     <p class="lead">
       <a href="#about" class="btn btn-lg btn-secondary">View about me</a>
     </p>
   </main>
 
 
- 
-
+  
  
     <div class="p-5 mb-2 bg-light text-dark" id="about">
       <h1 style="text-align: center;">About Me</h1>
@@ -168,25 +166,11 @@
                 <img src="images/traffic.jpg" alt="Traffic">
             </a>
         </div>
-        <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="../images/rocks.jpg">
-                <img src="images/rocks.jpg" alt="Rocks">
-            </a>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="../images/benches.jpg">
-                <img src="images/benches.jpg" alt="Benches">
-            </a>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="../images/sky.jpg">
-                <img src="images/sky.jpg" alt="Sky">
-            </a>
-        </div>
     </div>
 </div>
   
   <br>
+
   <footer class="mastfoot mt-auto">
     <div class="inner">
         <p style="font-size: 24px;">John Park's <a href="https://github.com/johanpark">Github</a>  <i class="fab fa-github fa-3x"></i></p>
@@ -195,6 +179,9 @@
 </div>
 
 
-
+<script src="https://unpkg.com/splitting@1.0.0/dist/splitting.js"></script>
+  <script>
+      Splitting();
+  </script>
 </body>
 </html>
