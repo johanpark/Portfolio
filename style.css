@@ -120,6 +120,9 @@ body {
   font-weight: 700;
 }
 
+#about {
+	padding: 100px 0 50px 0;
+}
 
 /*
  * Footer
